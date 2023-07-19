@@ -1,0 +1,10 @@
+.nav-container{
+   border: 1px solid blue;
+   min-height: 100px; 
+}
+.logo-container{
+border: 1px solid salmon;
+}
+.nav-items-container{
+border: 1px solid green;
+}
