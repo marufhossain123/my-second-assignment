@@ -7,30 +7,39 @@ body{
 *{
     box-sizing: border-box;
 }
+nav{
+    background-color: lightgrey
+}
 
 .nav-container{
-   border: 1px solid blue;
-   min-height: 50px; 
+   min-height: 50px;
+   display: flex;
+   align-items: center; 
+   max-width: 1400px;
+   margin: 0 auto;
+   
 }
 .logo-container{
-border: 1px solid salmon;
 display: flex;
 width: 50%;
 
 
 
+
 }
 .logo-container img{
-    border: 1px solid red;
     width: 50px;
     margin-right: 20px;
+    height: 50px;
     
     
     
 }
 .logo-container p{
-    font-size: 50px
-    border: 1px solid violet;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    
 
     
     
@@ -41,9 +50,29 @@ width: 50%;
 }
 
 .nav-items-container{
-border: 1px solid green;
+
 width: 50%;
+display: flex;
+justify-content: space-between;
 
 
 
+}
+.nav-items-container a{
+    text-decoration: none;
+
+    
+}
+.follow-btn{
+    background-color: lightgreen;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+@media screen and (max-width:576px){
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-items-container{
+        flex-direction: column;
+    }
 }
