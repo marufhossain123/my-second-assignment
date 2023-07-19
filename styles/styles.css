@@ -1,10 +1,49 @@
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+
 .nav-container{
    border: 1px solid blue;
-   min-height: 100px; 
+   min-height: 50px; 
 }
 .logo-container{
 border: 1px solid salmon;
+display: flex;
+width: 50%;
+
+
+
 }
+.logo-container img{
+    border: 1px solid red;
+    width: 50px;
+    margin-right: 20px;
+    
+    
+    
+}
+.logo-container p{
+    font-size: 50px
+    border: 1px solid violet;
+
+    
+    
+}
+.G-section{
+    color: #FF42A5;
+
+}
+
 .nav-items-container{
 border: 1px solid green;
+width: 50%;
+
+
+
 }
