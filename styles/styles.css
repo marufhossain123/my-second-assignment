@@ -129,7 +129,51 @@ background-color: #FF42A5;
     margin: 0;
     gap: 5px;
 }
+.banner-continue{
 
+    display: flex;
+    min-width: 400px;
+}
+.banner-word{
+
+width: 50%;
+
+}
+.p-i{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.free-w{
+    font-size: 15px;
+}
+
+.baner-img{
+    display: flex;
+}
+.baner-img img{
+    width: 50%;
+}
+.nav-c{
+    display: flex;
+}
+.logo-c{
+    display: flex;
+    text-align: center;
+}
+.game-story{
+    text-decoration: none;
+    gap: 5px;
+    align-items: center;
+    margin: 0 auto;
+}
+.game-story a{
+    text-decoration: none;
+    justify-content: space-between;
+    text-align: end;
+    gap: 5px;
+}
 @media screen and (max-width:576px){
     .nav-container{
         flex-direction: column;
@@ -148,6 +192,17 @@ background-color: #FF42A5;
 .banner-container{
     flex-direction: column;
 }
+.grid-container{
+    flex-direction: column;
+
+}
+.online-v img{
+    width: 100%;
+}
+.grid-container{
+    grid-template-columns: 1fr;
+}
+
 }
 /* medium screen  */
 @media screen and (min-width:577px){
